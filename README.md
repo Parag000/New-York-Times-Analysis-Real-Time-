@@ -1,4 +1,4 @@
-#Apache AirFlow Pipelines
+# Apache AirFlow Pipelines
 
 The nyt_dag.py script defines 3 Airflow DAG pipelines:
 - real_time_api_pipeline: A pipeline to fetch data from NYT Archive Data real time api, process the data and insert the data into snowflake database NYT_DB.NYT_SCHEMA. This pipeline is scheduled to run every 1st day of month at 12 am.
